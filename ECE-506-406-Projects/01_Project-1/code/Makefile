@@ -23,13 +23,13 @@ BIN_DIR			  	= bin
 #       		         GRAPH ARGUMENTS    			#
 #########################################################
 
-BENCHMARKS_DIR    	= ./datasets
-
+#BENCHMARKS_DIR    	= ./datasets
+BENCHMARKS_DIR    =    /mnt/beegfs/asamara/ECE506_graphs
 #Tests
 #GRAPH_NAME = wiki-vote
 #GRAPH_NAME = facebook
-GRAPH_NAME = test
-
+#GRAPH_NAME = test
+GRAPH_NAME = road
 # GONG # https://gonglab.pratt.duke.edu/google-dataset
 # GRAPH_NAME = gplus
 
