@@ -198,7 +198,7 @@ int main(int argc, char **argv)
     printf(" -----------------------------------------------------\n");
     Start(timer);
 
-    breadthFirstSearchGraphPush(root, graph);
+    //breadthFirstSearchGraphPush(root, graph);
 
     // for (int p = 0; p < 10; ++p)
     // {
