@@ -18,8 +18,10 @@ struct Graph *radixSortEdgesBySourceMPI (struct Graph *graph);
 #ifdef HYBRID_HARNESS
 struct Graph *radixSortEdgesBySourceHybrid (struct Graph *graph);
 #endif
-
+struct Graph *countSortSerialEdgesBySource(struct Graph *graph);
+struct Graph *countSortParallelEdgesBySource(struct Graph *graph);
 struct Graph *countSortEdgesBySource (struct Graph *graph,int mask,int bits);
+struct Graph *radixSortEdgesBySource (struct Graph *graph);
 
 extern int numThreads;
 
