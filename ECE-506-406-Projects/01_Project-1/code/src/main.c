@@ -171,7 +171,7 @@ int main(int argc, char **argv)
     graph = radixSortEdgesBySource(graph); // you need to parallelize this function
     Stop(timer);
     printMessageWithtime("Time Sorting (Seconds)", Seconds(timer));
-    printEdgeArray(graph->sorted_edges_array,graph->num_edges);
+    //printEdgeArray(graph->sorted_edges_array,graph->num_edges);
 
 
     // For testing purpose.
