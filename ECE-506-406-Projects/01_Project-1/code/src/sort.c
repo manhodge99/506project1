@@ -77,8 +77,6 @@ struct Graph *countSortParallelEdgesBySource (struct Graph *graph)
     int end_offset;
     int start_offset;
     int P;
-    int m = mask;
-    int b = bits;
     int **vertex_count;
     struct Edge *sorted_edges_array = newEdgeArray(graph->num_edges);
     #pragma omp parallel private(i,j,key,pos,start_offset,end_offset,tid,base)shared(graph,sorted_edges_array)
