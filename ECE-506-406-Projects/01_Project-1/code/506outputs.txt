@@ -1,0 +1,4 @@
+\n ******************************************************************************  
+ * DONE!! NOTHING ELSE TO COMPILE ---> openmp: ./bin/run-graph-openmp
+ ******************************************************************************  \n
+././bin/run-graph-openmp -f ./datasets/test/graph.txt -n 4 -r 1 -h
